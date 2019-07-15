@@ -8,4 +8,8 @@ def mul(a,b):
 
 
 
-print("you ma nigga")  
+
+
+
+print("안녕하세요")
+
