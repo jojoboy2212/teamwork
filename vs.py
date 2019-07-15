@@ -1,5 +1,6 @@
 def add(a,b):
     return a+b
+    print('woonjang babo ')
 
 def mul(a,b):
     
@@ -7,4 +8,4 @@ def mul(a,b):
 
 
 
-print("hello world")  
+print("you ma nigga")  
