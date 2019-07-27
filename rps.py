@@ -45,11 +45,11 @@ while True:
 
     # 3. 유저와 컴퓨터의 값을 비교합니다.
     if (user_choice == '1' and computer_choice == '3') or (user_choice == '2' and computer_choice == '1') or (user_choice == '1' and computer_choice == '2'):
-        print('당신이 이겼습니다!', end=" ")
+        print('당신이 승리하였습니다!', end=" ")
     elif (computer_choice == '1' and user_choice == '3') or (computer_choice == '2' and user_choice == '1') or (computer_choice == '1' and user_choice == '2'):
-        print('컴퓨터가 이겼습니다!', end=" ")
+        print('컴퓨터가 승리하였습니다!', end=" ")
     else:
-        print('비겼습니다!', end=" ")
+        print('비겼네요!!', end=" ")
 
     game_over = input('한 판 더 할까요? (Y / N) : ')
     while game_over.upper() not in ['Y', 'N']:
